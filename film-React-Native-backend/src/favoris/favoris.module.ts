@@ -3,7 +3,7 @@ import { FavorisService } from './favoris.service';
 import { FavorisController } from './favoris.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Favoris } from '../entities/favoris.entity';
-import { Users } from 'src/entities/users.entety';
+import { Users } from '../entities/users.entety';
 import { JwtService } from '@nestjs/jwt';
 
 // favoris module pour utiliser les controllers crée

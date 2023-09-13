@@ -11,7 +11,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 //Import du type Repository pour la communication avec la base de données
 import { Repository } from 'typeorm';
 //Import de l'entité Compte pour la communication avec la base de données
-import { Users } from 'src/entities/users.entety';
+import { Users } from '../entities/users.entety';
 //Import la constante "jwtConstants" depuis le module "./constants". Cela signifie que le code dans le fichier "./constants.js" exporte un objet nommé "jwtConstants" qui peut être utilisé dans le fichier actuel.
 import { jwtConstants } from './constants';
 

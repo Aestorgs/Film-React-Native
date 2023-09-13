@@ -11,7 +11,7 @@ import * as bcrypt from 'bcrypt';
 import { JwtPayload } from 'src/auth/strategies/accessToken.strategy';
 import { JwtService } from '@nestjs/jwt';
 import { Request } from 'express';
-import { Favoris } from 'src/entities/favoris.entity';
+import { Favoris } from '../entities/favoris.entity';
 
 // users service pour crée les fonctions
 @Injectable()

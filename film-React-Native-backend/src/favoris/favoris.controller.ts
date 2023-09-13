@@ -14,7 +14,7 @@ import {
 import { FavorisService } from './favoris.service';
 import { CreateFavorisDto } from './dto/favoris.dto';
 import { Request } from 'express';
-import { AccessTokenGuard } from 'src/auth/common/guard/accessToken.guard';
+import { AccessTokenGuard } from '../auth/common/guard/accessToken.guard';
 
 // favoris controller pour utiliser les routes
 @Controller('favoris')

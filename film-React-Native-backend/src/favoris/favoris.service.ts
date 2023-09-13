@@ -8,10 +8,10 @@ import { Favoris } from '../entities/favoris.entity';
 import { Repository } from 'typeorm';
 import { CreateFavorisDto } from './dto/favoris.dto';
 import { JwtService } from '@nestjs/jwt';
-import { JwtPayload } from 'src/auth/strategies/accessToken.strategy';
+import { JwtPayload } from '../auth/strategies/accessToken.strategy';
 //Import du type Request pour obtenir les informations de la requête HTTP
 import { Request } from 'express';
-import { Users } from 'src/entities/users.entety';
+import { Users } from '../entities/users.entety';
 
 // favoris service pour crée les fonctions
 @Injectable()

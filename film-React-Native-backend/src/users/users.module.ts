@@ -4,7 +4,7 @@ import { Users } from '../entities/users.entety';
 import { UsersController } from './users.controller';
 import { UsersService } from './users.service';
 import { JwtService } from '@nestjs/jwt';
-import { Favoris } from 'src/entities/favoris.entity';
+import { Favoris } from '../entities/favoris.entity';
 
 // users module pour utiliser les controllers crée
 @Module({
